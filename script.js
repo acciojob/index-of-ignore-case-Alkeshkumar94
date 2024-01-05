@@ -5,10 +5,11 @@ function indexOfIgnoreCase(s1, s2) {
   }
 	 const lowS1 = s1.toLowerCase();
   const lows2 = s2.toLowerCase();
-	const index = lowers1.indexOf(lows2);
+	const index = lowS1.indexOf(lows2);
 	return index;
 
 }
+
 
 // Please do not change the code below
 const s1 = prompt("Enter s1:");
